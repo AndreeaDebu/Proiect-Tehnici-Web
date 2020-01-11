@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+body{
+    background-image: url('van.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 20px;
+  padding: 5%;
+}
+
+p{
+	font-size:20px;
+	font-family: 'Pacifico', cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-indent: 50px;
+    z-index: -1;
+}
+b{
+	margin-left: 20%;
+    margin-top: 10%;
+	font-size:65px;
+    color: darkgreen;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 2px white;
+	}
+ iframe{
+    border-width: 0px;
+	width:600px;
+	height:500px;
+	margin-right:10%;
+}
+
+@media (min-width: 375px) and (min-height: 852px) and (max-width: 400px) and (max-height:860px) {
+	iframe{
+		margin-top: 300px;
+	}
+	p{
+		font-size: 10px;
+	}
+}
+
+#center{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    left:25%;
+}

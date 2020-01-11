@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+body{
+    margin: 0%;
+    z-index: -1;
+}
+a{
+    color: white;
+}
+.slide{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slide 25s infinite;
+    animation-timing-function:ease-in-out;
+    background-color: black;
+    z-index: -1;
+}
+@keyframes slide{
+    0% {
+        background-image: url('a2.jpeg');
+    }
+    25%{
+        background-image: url('a3.jpeg');
+    }
+    50%{
+        background-image: url('a4.jpeg');
+    }
+    75%{
+        background-image: url('a5.jpeg');
+    }
+    100%{
+        background-image: url('a1.jpeg');
+    }
+}
+.Titlu{
+    position: absolute;
+    top: 15px;
+    left: 420px;
+    font-size: 80px;
+    font-family:'Finger Paint', cursive;
+    color:green;
+    text-shadow: 6px 6px white;
+    transition-property: width;
+    transition-duration: 5s;
+    z-index: 1;
+}
+
+.grid-container {
+  display: grid;
+  justify-content:flex-end;
+  grid-template-columns: 100px 100px 100px 100px; /*Make the grid smaller than the container*/
+  grid-gap: 10px;
+  background-color: black;
+  padding: 20px;
+  opacity: 0.4;
+  width: 1000px;
+  height:75px; 
+  position: absolute;
+  left: 300px;
+}
+
+.grid-container > div {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#avocado{
+    position: absolute;
+    top: 70px;
+    left: 730px;
+    width: 92px;
+    height:120px; 
+    z-index: 1;
+}
+
+h3{
+   font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    color :darkgreen;
+     text-shadow: 3px 3px white;
+    height:100px; 
+    z-index: 1;
+    font-size: 55px;
+}
+
+.dropbtn {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 35px;
+  border: 2px white;
+  border-radius: 17px;
+  cursor: pointer;
+  margin-left: 420%;
+  margin-top: 120%;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top:17vh;
+  left:17vw;
+  background-color: yellowgreen;
+  min-width: 10%;
+  opacity: 0.8;
+  z-index: 1;       
+}
+
+.dropdown-content a {
+  color: darkgreen;
+  font-style: italic;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+@media (min-width: 375px) and (min-height: 852px) and (max-width: 400px) and (max-height:860px) {
+	h3{
+		top:550px;
+		left:100px;
+	}
+.dropdown-content{
+	top:9vh;
+	left:32vw;
+	}
+	
+#avocado{
+	top:100px;
+}
+}
+
+#formular{
+    position: absolute;
+    top: 20%;
+    left: 250px;
+    font-size: 30px;
+}
+#test{
+    position: absolute;
+    top: 25%;
+    left: 950px;
+    font-size:30px;
+}

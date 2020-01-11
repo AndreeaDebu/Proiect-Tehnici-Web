@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: white;
+  padding: 20px 0;
+  font-size: 20px;
+  height: 500px;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item2{
+     grid-column-start:2;
+     grid-column-end:4 ;
+     grid-row-start:2 ;
+     grid-row-end: 3;
+}
+.item3{
+    grid-column-start:3;
+     grid-column-end:4 ;
+     grid-row-start:1 ;
+     grid-row-end: 2;
+}
+.item4{
+         width:600px;
+
+}
+.item5{
+     grid-column-start:1;
+     grid-column-end:3 ;
+     grid-row-start:3;
+     grid-row-end: 4;
+}
+.item8{
+    grid-column-start:2;
+     grid-column-end:4;
+     grid-row-start:4;
+     grid-row-end: 5;
+}
+.item9{
+    grid-column-start:1;
+     grid-column-end:3;
+     grid-row-start:5;
+     grid-row-end: 6;
+}
+.item12{
+     grid-column-start:2;
+     grid-column-end:4;
+     grid-row-start:6;
+     grid-row-end: 7;
+}
+#p1{
+    height: 500px;
+    width: auto;
+}
+#p2{
+    height: 500px;
+    width: auto;
+   
+}
+#p3{
+    height: 500px;
+    width: auto;
+    left:200px;
+    margin-left: 150px;
+}
+#p4{
+    height: 500px;
+    width: auto;
+}
+#p8{
+    height: 500px;
+    width: auto;
+}
+#p10{
+    height: 500px;
+    width: auto;
+    margin-left: 250px;
+    
+}
+p{
+    top:100px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+h1{
+    color: #009933;
+    margin-left: 300px;
+    font-size:70px;
+    font-family: 'Pacifico', bold;
+}
