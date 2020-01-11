@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+h1{
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+	font-size:200px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  margin-left: 70%;
+}
+h4{
+    margin-left: 75%;
+}
+button:hover {
+  opacity: 0.8;
+}

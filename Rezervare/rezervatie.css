@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+body{
+    background-image: url('rezervation.jpeg');
+    background-size: cover;
+}
+
+
+.avatar {
+  width: 50%;
+  border-radius: 50%;
+  animation: scale-up-center 1.7s ease-in-out infinite alternate-reverse both;
+  margin-left: 30%;
+}
+
+@keyframes scale-up-center {
+  0% {
+            transform: scale(0.5);
+  }
+  100% {
+            transform: scale(1);
+  }
+}
+
+h3{
+  font-family: 'Roboto Mono', monospace; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:darkgreen;
+  text-align: center; 
+  text-decoration: underline;
+}
+
+table{
+  font-family:'Roboto Mono', monospace ; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: forestgreen; 
+  border-collapse: collapse; 
+  border: 2px solid navy
+}
+table.inner{
+  border: 0px
+}
